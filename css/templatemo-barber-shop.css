@@ -870,7 +870,7 @@ body {
 
 @media (max-width: 768px) {
   .team-card-wrap {
-    padding: 10px;
+    padding: center;
     min-height: auto;
   }
 
