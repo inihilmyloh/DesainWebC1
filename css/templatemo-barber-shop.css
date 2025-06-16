@@ -837,7 +837,6 @@ body {
   text-align: center;
 }
 
-
 .team-card-info p {
   font-size: 14px;
   margin: 0;
@@ -847,8 +846,35 @@ body {
   overflow: hidden;
 }
 
+@media (max-width: 768px) {
+  .team-card-wrap {
+    padding: 10px;
+    min-height: auto;
+  }
 
+  .team-card-image {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+    transform: rotate(0deg);
+  }
 
+  .team-card-info {
+    height: auto;
+    padding: 8px;
+  }
+
+  .team-card-info strong {
+    font-size: 14px;
+    height: auto;
+    margin-bottom: 4px;
+  }
+
+  .team-card-info p {
+    font-size: 12px;
+    height: auto;
+  }
+}
 
 
 /*---------------------------------------
