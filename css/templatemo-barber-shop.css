@@ -912,7 +912,7 @@ body {
 }
 
 .btn-outline-light:hover {
-  background-color: var(--secondary-color);
+  background-color: #fff;
   color: var(--secondary-color);
 }
 
