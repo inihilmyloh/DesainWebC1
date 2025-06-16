@@ -868,10 +868,14 @@ body {
   overflow: hidden;
 }
 
+/* Responsive */
 @media (max-width: 768px) {
   .team-card-wrap {
     padding: 10px;
     min-height: auto;
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .team-card-image {
@@ -896,8 +900,21 @@ body {
     font-size: 12px;
     height: auto;
   }
+
+  .col-11 {
+    margin-bottom: 20px !important;
+  }
 }
 
+.btn-outline-light {
+  border-color: var(--secondary-color);
+  color: var(--secondary-color);
+}
+
+.btn-outline-light:hover {
+  background-color: var(--secondary-color);
+  color: var(--secondary-color);
+}
 
 /*---------------------------------------
   SOCIAL ICON               
